@@ -1,5 +1,5 @@
 
-# solution module is a library module.
+# solution module is a library module , the function is for fibonacci numbers.
 
 def fibonacci(number):
 	x=1
