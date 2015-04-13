@@ -7,4 +7,4 @@ def nonincr(some_array):
 			some_array[i+1]=some_array[i]
 			i=i-1
 		some_array[i+1]=key
-	return 
+	return some_array
