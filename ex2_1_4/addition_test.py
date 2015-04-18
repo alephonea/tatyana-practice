@@ -15,6 +15,11 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(output_number_add,expected_number)
         self.assertEqual(output_number_imp_add,expected_number)
         
+        # NOTE(orlov) the problem statement does not say that the high
+        # order bit must be set to one. For example, zero is a perfect
+        # n-bit integer, for any n.
+        # Could you add some tests that add numbers where top bit is
+        # zero?
         
 if __name__== '__main__':
     unittest.main()
