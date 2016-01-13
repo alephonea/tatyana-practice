@@ -7,10 +7,8 @@ def fibonacci(number):
 	i=2
 	z=0
 	if number ==1:
-		print 1
 		return 1
 	elif number==2:
-		print 2
 		return 2
 	else:
 		while i!=number:
